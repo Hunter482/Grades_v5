@@ -18,7 +18,7 @@ struct Wrapper: View {
         case .fach:
             FachView(storage: storage)
         case .addfach:
-            
+            addfileview()
         }
     }
 }
